@@ -1,0 +1,12 @@
+(module TEST_PAD (layer F.Cu) (tedit 5FC2B034)
+  (descr "<b>1mm Test Pad</b>")
+  (fp_text reference TP34 (at -1.27 -1.27) (layer F.SilkS) hide
+    (effects (font (size 0.77216 0.77216) (thickness 0.065024)) (justify left bottom))
+  )
+  (fp_text value TE (at 0.381 2.032 -90) (layer F.Fab)
+    (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
+  )
+  (fp_circle (center 0 0) (end 1.1 0) (layer F.CrtYd) (width 0.0508))
+  (pad 1 smd circle (at 0 0) (size 1 1) (layers F.Cu F.Mask)
+    (solder_mask_margin 0.0508) (zone_connect 2))
+)
