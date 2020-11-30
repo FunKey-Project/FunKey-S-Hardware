@@ -1,4 +1,6 @@
-## Intro
+[![licensebuttons by-nc-sa](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0)
+
+## FunKey S Hardware
 This repository contains all the hardware design and production files required to build the [FunKey-S retro-gaming console](https://www.funkey-project.com/) electronic PCBA using the [KiCAD ECAD tools](https://kicad.org/).
 
 The FunKey S is a small foldable retro-gaming console.
