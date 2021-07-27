@@ -1,0 +1,437 @@
+#VRML V2.0 utf8
+DEF TXFM_1 Transform {
+  center 0 0 0
+  rotation 0 0 1 0
+  scale 1 1 1
+  scaleOrientation 0 0 1 0
+  translation 0 0 0
+ children [
+DEF TXFM_2 Transform {
+  center 0 0 0
+  rotation 0 0 1 0
+  scale 1 1 1
+  scaleOrientation 0 0 1 0
+  translation 0 0 0
+ children [
+DEF SHAPE_1 Shape {
+ appearance DEF APP_1 Appearance {
+  material Material {
+   ambientIntensity 1
+   diffuseColor 0 0 0
+   emissiveColor 0 0 0
+   shininess 0.1
+   specularColor 0.12 0.12 0.12
+   transparency 0
+} }
+ geometry DEF FACE_1 IndexedFaceSet {
+  coord DEF COORD_1 Coordinate { point [
+  -0.15748031 0 0.38976378,-0.15748031 0.11417323 0.38976378,
+  0.15748031 0 0.38976378,0.15748031 0.11417323 0.38976378] }
+ coordIndex [
+  1,0,2,-1,1,2,3,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_1 Normal { vector [
+  0 0 1,0 0 1,
+  0 0 1,0 0 1] }
+}
+}
+DEF SHAPE_2 Shape {
+ appearance USE APP_1
+ geometry DEF FACE_2 IndexedFaceSet {
+  coord DEF COORD_2 Coordinate { point [
+  0.15748031 0 -0.38976378,-0.15748031 0 -0.38976378,
+  -0.15748031 0.11417323 -0.38976378,0.15748031 0.11417323 -0.38976378] }
+ coordIndex [
+  3,0,1,-1,3,1,2,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_2 Normal { vector [
+  0 0 -1,0 0 -1,
+  0 0 -1,0 0 -1] }
+}
+}
+DEF SHAPE_3 Shape {
+ appearance USE APP_1
+ geometry DEF FACE_3 IndexedFaceSet {
+  coord DEF COORD_3 Coordinate { point [
+  -0.15748031 0 0.38976378,0.15748031 0 0.38976378,
+  -0.15748031 0 -0.38976378,0.15748031 0 -0.38976378] }
+ coordIndex [
+  1,0,2,-1,1,2,3,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_3 Normal { vector [
+  0 -1 0,0 -1 0,
+  0 -1 0,0 -1 0] }
+}
+}
+DEF SHAPE_4 Shape {
+ appearance DEF APP_2 Appearance {
+  material Material {
+   ambientIntensity 0.1328125
+   diffuseColor 0.75294119 0.75294119 0.75294119
+   emissiveColor 0 0 0
+   shininess 0.1
+   specularColor 0.12 0.12 0.12
+   transparency 0
+} }
+ geometry DEF FACE_4 IndexedFaceSet {
+  coord DEF COORD_4 Coordinate { point [
+  -0.49212598 0.11417323 -0.38976378,-0.49212598 0.11417323 0.38976378,
+  -0.49212598 0.11417323 -0.39370079,-0.49212598 -0.0039370079 -0.39370079,
+  -0.49212598 -0.0039370079 0.39370079,-0.49212598 0.11417323 0.39370079] }
+ coordIndex [
+  1,4,5,-1,0,3,4,-1,0,4,1,-1,2,3,0,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_4 Normal { vector [
+  -1 0 0,-1 0 0,
+  -1 0 0,-1 0 0,
+  -1 0 0,-1 0 0] }
+}
+}
+DEF SHAPE_5 Shape {
+ appearance USE APP_2
+ geometry DEF FACE_5 IndexedFaceSet {
+  coord DEF COORD_5 Coordinate { point [
+  0.49212598 0.11417323 0.38976378,0.49212598 0.11417323 -0.38976378,
+  0.49212598 0.11417323 0.39370079,0.49212598 -0.0039370079 0.39370079,
+  0.49212598 -0.0039370079 -0.39370079,0.49212598 0.11417323 -0.39370079] }
+ coordIndex [
+  1,4,5,-1,0,3,4,-1,0,4,1,-1,2,3,0,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_5 Normal { vector [
+  1 0 0,1 0 0,
+  1 0 0,1 0 0,
+  1 0 0,1 0 0] }
+}
+}
+DEF SHAPE_6 Shape {
+ appearance DEF APP_3 Appearance {
+  material Material {
+   ambientIntensity 0.39843747
+   diffuseColor 0.25098041 0.25098041 0.25098041
+   emissiveColor 0 0 0
+   shininess 0.1
+   specularColor 0.12 0.12 0.12
+   transparency 0
+} }
+ geometry DEF FACE_6 IndexedFaceSet {
+  coord DEF COORD_6 Coordinate { point [
+  -0.49212598 0.3503937 -0.38976378,-0.49212598 0.3503937 0.38976378,
+  -0.49212598 0.46850394 0.38976378,-0.49212598 0.46850394 -0.38976378] }
+ coordIndex [
+  3,0,1,-1,3,1,2,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_6 Normal { vector [
+  -1 0 0,-1 0 0,
+  -1 0 0,-1 0 0] }
+}
+}
+DEF SHAPE_7 Shape {
+ appearance USE APP_3
+ geometry DEF FACE_7 IndexedFaceSet {
+  coord DEF COORD_7 Coordinate { point [
+  -0.49212598 0.3503937 0.38976378,0.49212598 0.3503937 0.38976378,
+  0.49212598 0.46850394 0.38976378,-0.49212598 0.46850394 0.38976378] }
+ coordIndex [
+  3,0,1,-1,3,1,2,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_7 Normal { vector [
+  0 0 1,0 0 1,
+  0 0 1,0 0 1] }
+}
+}
+DEF SHAPE_8 Shape {
+ appearance USE APP_3
+ geometry DEF FACE_8 IndexedFaceSet {
+  coord DEF COORD_8 Coordinate { point [
+  0.49212598 0.3503937 0.38976378,0.49212598 0.3503937 -0.38976378,
+  0.49212598 0.46850394 -0.38976378,0.49212598 0.46850394 0.38976378] }
+ coordIndex [
+  3,0,1,-1,3,1,2,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_8 Normal { vector [
+  1 0 0,1 0 0,
+  1 0 0,1 0 0] }
+}
+}
+DEF SHAPE_9 Shape {
+ appearance USE APP_3
+ geometry DEF FACE_9 IndexedFaceSet {
+  coord DEF COORD_9 Coordinate { point [
+  0.49212598 0.3503937 -0.38976378,-0.49212598 0.3503937 -0.38976378,
+  -0.49212598 0.46850394 -0.38976378,0.49212598 0.46850394 -0.38976378] }
+ coordIndex [
+  3,0,1,-1,3,1,2,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_9 Normal { vector [
+  0 0 -1,0 0 -1,
+  0 0 -1,0 0 -1] }
+}
+}
+DEF SHAPE_10 Shape {
+ appearance USE APP_3
+ geometry DEF FACE_10 IndexedFaceSet {
+  coord DEF COORD_10 Coordinate { point [
+  -0.49212598 0.46850394 -0.38976378,-0.49212598 0.46850394 0.38976378,
+  0.49212598 0.46850394 0.38976378,0.49212598 0.46850394 -0.38976378] }
+ coordIndex [
+  3,0,1,-1,3,1,2,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_10 Normal { vector [
+  0 1 0,0 1 0,
+  0 1 0,0 1 0] }
+}
+}
+DEF SHAPE_11 Shape {
+ appearance USE APP_1
+ geometry DEF FACE_11 IndexedFaceSet {
+  coord DEF COORD_11 Coordinate { point [
+  -0.49212598 0.3503937 0.38976378,-0.49212598 0.11417323 0.38976378,
+  -0.48153217 0.27201027 0.37916996,-0.48153217 0.19255665 0.37916996,
+  0.49212598 0.3503937 0.38976378,0.49212598 0.11417323 0.38976378,
+  0.48153217 0.19255665 0.37916996,0.48153217 0.27201027 0.37916996,
+  0.15748031 0.11417323 0.38976378,-0.15748031 0.11417323 0.38976378] }
+ coordIndex [
+  8,5,6,-1,8,6,7,-1,2,4,0,-1,2,7,4,-1,9,8,7,-1,9,7,2,-1,3,9,2,-1,1,9,3,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_11 Normal { vector [
+  0 -0.13393604 0.99098998,0 0.13393604 0.99098998,
+  -0.002546358 -0.031543659 0.99949913,-0.016154145 0.068038623 0.9975519,
+  0 -0.13393604 0.99098998,0 0.13393604 0.99098998,
+  0.016154145 0.068038623 0.9975519,0.0027781768 0.01101292 0.9999355,
+  0.0082580951 0.067517511 0.99768391,-0.0033102829 0.067188835 0.99773479] }
+}
+}
+DEF SHAPE_12 Shape {
+ appearance USE APP_1
+ geometry DEF FACE_12 IndexedFaceSet {
+  coord DEF COORD_12 Coordinate { point [
+  -0.49212598 0.11417323 -0.38976378,-0.49212598 0.11417323 0.38976378,
+  -0.49212598 0.3503937 -0.38976378,-0.48153217 0.27201027 -0.37916996,
+  -0.48153217 0.19255665 -0.37916996,-0.49212598 0.3503937 0.38976378,
+  -0.48153217 0.27201027 0.37916996,-0.48153217 0.19255665 0.37916996] }
+ coordIndex [
+  3,5,2,-1,3,6,5,-1,4,7,6,-1,4,6,3,-1,0,1,7,-1,0,7,4,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_12 Normal { vector [
+  -0.99098998 0.13393604 0,-0.99098998 0.13393604 0,
+  -0.99098998 -0.13393604 0,-0.99596448 -0.089748242 0,
+  -0.9990049 0.044600465 0,-0.99098998 -0.13393604 0,
+  -0.9990049 -0.044600465 0,-0.99596448 0.089748242 0] }
+}
+}
+DEF SHAPE_13 Shape {
+ appearance USE APP_1
+ geometry DEF FACE_13 IndexedFaceSet {
+  coord DEF COORD_13 Coordinate { point [
+  -0.15748031 0.11417323 -0.38976378,-0.49212598 0.11417323 -0.38976378,
+  0.15748031 0.11417323 -0.38976378,0.49212598 0.11417323 -0.38976378,
+  0.49212598 0.3503937 -0.38976378,0.48153217 0.27201027 -0.37916996,
+  0.48153217 0.19255665 -0.37916996,-0.49212598 0.3503937 -0.38976378,
+  -0.48153217 0.27201027 -0.37916996,-0.48153217 0.19255665 -0.37916996] }
+ coordIndex [
+  0,9,8,-1,0,1,9,-1,5,7,4,-1,5,8,7,-1,2,8,5,-1,2,0,8,-1,6,2,5,-1,3,2,6,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_13 Normal { vector [
+  -0.0082580951 0.067517511 -0.99768391,0 0.13393604 -0.99098998,
+  0.0033102829 0.067188835 -0.99773479,0 0.13393604 -0.99098998,
+  0 -0.13393604 -0.99098998,0.002546358 -0.031543659 -0.99949913,
+  0.016154145 0.068038623 -0.9975519,0 -0.13393604 -0.99098998,
+  -0.0027781768 0.01101292 -0.9999355,-0.016154145 0.068038623 -0.9975519] }
+}
+}
+DEF SHAPE_14 Shape {
+ appearance USE APP_1
+ geometry DEF FACE_14 IndexedFaceSet {
+  coord DEF COORD_14 Coordinate { point [
+  0.49212598 0.3503937 0.38976378,0.49212598 0.3503937 -0.38976378,
+  0.49212598 0.11417323 -0.38976378,0.48153217 0.27201027 -0.37916996,
+  0.48153217 0.19255665 -0.37916996,0.49212598 0.11417323 0.38976378,
+  0.48153217 0.19255665 0.37916996,0.48153217 0.27201027 0.37916996] }
+ coordIndex [
+  7,1,0,-1,7,3,1,-1,6,4,3,-1,6,3,7,-1,5,2,4,-1,5,4,6,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_14 Normal { vector [
+  0.99098998 -0.13393604 0,0.99098998 -0.13393604 0,
+  0.99098998 0.13393604 0,0.9990049 -0.044600465 0,
+  0.99596448 0.089748242 0,0.99098998 0.13393604 0,
+  0.9990049 0.044600465 0,0.99596448 -0.089748242 0] }
+}
+}
+DEF SHAPE_15 Shape {
+ appearance USE APP_1
+ geometry DEF FACE_15 IndexedFaceSet {
+  coord DEF COORD_15 Coordinate { point [
+  0.15748031 0 0.38976378,0.15748031 0 -0.38976378,
+  0.15748031 0.11417323 -0.38976378,0.15748031 0.11417323 -0.39370079,
+  0.15748031 -0.0039370079 -0.39370079,0.15748031 -0.0039370079 0.39370079,
+  0.15748031 0.11417323 0.39370079,0.15748031 0.11417323 0.38976378] }
+ coordIndex [
+  6,0,5,-1,7,0,6,-1,4,0,1,-1,4,5,0,-1,3,1,2,-1,3,4,1,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_15 Normal { vector [
+  -1 0 0,-1 0 0,
+  -1 0 0,-1 0 0,
+  -1 0 0,-1 0 0,
+  -1 0 0,-1 0 0] }
+}
+}
+DEF SHAPE_16 Shape {
+ appearance USE APP_2
+ geometry DEF FACE_16 IndexedFaceSet {
+  coord DEF COORD_16 Coordinate { point [
+  0.49212598 -0.0039370079 -0.39370079,0.49212598 -0.0039370079 0.39370079,
+  0.15748031 -0.0039370079 0.39370079,0.15748031 -0.0039370079 -0.39370079] }
+ coordIndex [
+  0,1,2,-1,0,2,3,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_16 Normal { vector [
+  0 -1 0,0 -1 0,
+  0 -1 0,0 -1 0] }
+}
+}
+DEF SHAPE_17 Shape {
+ appearance USE APP_1
+ geometry DEF FACE_17 IndexedFaceSet {
+  coord DEF COORD_17 Coordinate { point [
+  0.49212598 0.11417323 0.38976378,0.15748031 0.11417323 0.38976378,
+  0.15748031 0.11417323 0.39370079,0.49212598 0.11417323 0.39370079] }
+ coordIndex [
+  3,0,1,-1,3,1,2,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_17 Normal { vector [
+  0 1 0,0 1 0,
+  0 1 0,0 1 0] }
+}
+}
+DEF SHAPE_18 Shape {
+ appearance USE APP_2
+ geometry DEF FACE_18 IndexedFaceSet {
+  coord DEF COORD_18 Coordinate { point [
+  0.49212598 0.11417323 0.39370079,0.15748031 0.11417323 0.39370079,
+  0.15748031 -0.0039370079 0.39370079,0.49212598 -0.0039370079 0.39370079] }
+ coordIndex [
+  1,2,3,-1,1,3,0,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_18 Normal { vector [
+  0 0 1,0 0 1,
+  0 0 1,0 0 1] }
+}
+}
+DEF SHAPE_19 Shape {
+ appearance USE APP_1
+ geometry DEF FACE_19 IndexedFaceSet {
+  coord DEF COORD_19 Coordinate { point [
+  0.49212598 0.11417323 -0.38976378,0.15748031 0.11417323 -0.38976378,
+  0.49212598 0.11417323 -0.39370079,0.15748031 0.11417323 -0.39370079] }
+ coordIndex [
+  0,2,3,-1,0,3,1,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_19 Normal { vector [
+  0 1 0,0 1 0,
+  0 1 0,0 1 0] }
+}
+}
+DEF SHAPE_20 Shape {
+ appearance USE APP_2
+ geometry DEF FACE_20 IndexedFaceSet {
+  coord DEF COORD_20 Coordinate { point [
+  0.15748031 -0.0039370079 -0.39370079,0.15748031 0.11417323 -0.39370079,
+  0.49212598 0.11417323 -0.39370079,0.49212598 -0.0039370079 -0.39370079] }
+ coordIndex [
+  1,2,3,-1,1,3,0,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_20 Normal { vector [
+  0 0 -1,0 0 -1,
+  0 0 -1,0 0 -1] }
+}
+}
+DEF SHAPE_21 Shape {
+ appearance USE APP_1
+ geometry DEF FACE_21 IndexedFaceSet {
+  coord DEF COORD_21 Coordinate { point [
+  -0.15748031 0 0.38976378,-0.15748031 0 -0.38976378,
+  -0.15748031 0.11417323 0.38976378,-0.15748031 0.11417323 0.39370079,
+  -0.15748031 -0.0039370079 0.39370079,-0.15748031 -0.0039370079 -0.39370079,
+  -0.15748031 0.11417323 -0.39370079,-0.15748031 0.11417323 -0.38976378] }
+ coordIndex [
+  3,4,0,-1,2,3,0,-1,5,1,0,-1,5,0,4,-1,6,7,1,-1,6,1,5,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_21 Normal { vector [
+  1 0 0,1 0 0,
+  1 0 0,1 0 0,
+  1 0 0,1 0 0,
+  1 0 0,1 0 0] }
+}
+}
+DEF SHAPE_22 Shape {
+ appearance USE APP_2
+ geometry DEF FACE_22 IndexedFaceSet {
+  coord DEF COORD_22 Coordinate { point [
+  -0.49212598 -0.0039370079 -0.39370079,-0.49212598 -0.0039370079 0.39370079,
+  -0.15748031 -0.0039370079 -0.39370079,-0.15748031 -0.0039370079 0.39370079] }
+ coordIndex [
+  2,1,0,-1,2,3,1,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_22 Normal { vector [
+  0 -1 0,0 -1 0,
+  0 -1 0,0 -1 0] }
+}
+}
+DEF SHAPE_23 Shape {
+ appearance USE APP_1
+ geometry DEF FACE_23 IndexedFaceSet {
+  coord DEF COORD_23 Coordinate { point [
+  -0.49212598 0.11417323 0.38976378,-0.15748031 0.11417323 0.38976378,
+  -0.49212598 0.11417323 0.39370079,-0.15748031 0.11417323 0.39370079] }
+ coordIndex [
+  2,1,0,-1,2,3,1,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_23 Normal { vector [
+  0 1 0,0 1 0,
+  0 1 0,0 1 0] }
+}
+}
+DEF SHAPE_24 Shape {
+ appearance USE APP_2
+ geometry DEF FACE_24 IndexedFaceSet {
+  coord DEF COORD_24 Coordinate { point [
+  -0.49212598 0.11417323 0.39370079,-0.15748031 0.11417323 0.39370079,
+  -0.49212598 -0.0039370079 0.39370079,-0.15748031 -0.0039370079 0.39370079] }
+ coordIndex [
+  3,1,0,-1,3,0,2,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_24 Normal { vector [
+  0 0 1,0 0 1,
+  0 0 1,0 0 1] }
+}
+}
+DEF SHAPE_25 Shape {
+ appearance USE APP_1
+ geometry DEF FACE_25 IndexedFaceSet {
+  coord DEF COORD_25 Coordinate { point [
+  -0.15748031 0.11417323 -0.38976378,-0.49212598 0.11417323 -0.38976378,
+  -0.15748031 0.11417323 -0.39370079,-0.49212598 0.11417323 -0.39370079] }
+ coordIndex [
+  1,0,2,-1,1,2,3,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_25 Normal { vector [
+  0 1 0,0 1 0,
+  0 1 0,0 1 0] }
+}
+}
+DEF SHAPE_26 Shape {
+ appearance USE APP_2
+ geometry DEF FACE_26 IndexedFaceSet {
+  coord DEF COORD_26 Coordinate { point [
+  -0.15748031 -0.0039370079 -0.39370079,-0.15748031 0.11417323 -0.39370079,
+  -0.49212598 -0.0039370079 -0.39370079,-0.49212598 0.11417323 -0.39370079] }
+ coordIndex [
+  0,2,3,-1,0,3,1,-1]
+  normalPerVertex TRUE
+  normal DEF NORM_26 Normal { vector [
+  0 0 -1,0 0 -1,
+  0 0 -1,0 0 -1] }
+}
+}
+] }
+] }

@@ -1,4 +1,4 @@
-(module EVP-AE (layer F.Cu) (tedit 5FC2AF92)
+(module EVP-AE (layer F.Cu) (tedit 5FC2AF93)
   (descr "<b>4.5 mmx2.2 mm Side-operational Edge Mount Light Touch Switch</b>")
   (fp_text reference S7 (at 0 -0.762 -180) (layer F.SilkS)
     (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify left bottom))
@@ -125,9 +125,9 @@
     (solder_mask_margin 0.0508))
   (pad 1' smd rect (at 1.15 -0.975 90) (size 1.35 0.8) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508))
-  (pad G$1 smd rect (at -2.475 0.7 90) (size 0.7 0.65) (layers F.Cu F.Paste F.Mask)
+  (pad G$1 smd rect (at -2.35 0.45 90) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508))
-  (pad G$2 smd rect (at 2.475 0.7 90) (size 0.7 0.65) (layers F.Cu F.Paste F.Mask)
+  (pad G$2 smd rect (at 2.35 0.45 90) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508))
   (model ${KIPRJMOD}/shapes3D/EVPAEBB2A.step
     (offset (xyz 0 0 -0.508))

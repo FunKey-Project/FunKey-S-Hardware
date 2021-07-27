@@ -5,9 +5,9 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "FunKey"
-Date "2020/11/26"
-Rev "E"
-Comp "© 2017-2020 Michel Stempin, All rights reserved."
+Date "2021/03/22"
+Rev "f"
+Comp "© 2017-2021 Michel Stempin, All rights reserved."
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -6352,7 +6352,7 @@ L FunKey:EVP-BB S1
 U 1 1 CEBFFD5E
 P 1800 14000
 F 0 "S1" H 1700 14100 60  0000 L BNN
-F 1 "EVP-BB" H 1500 14200 60  0000 L BNN
+F 1 "EVP-BB2A9B000" H 1500 14200 60  0000 L BNN
 F 2 "FunKey:EVP-BB" H 1800 14000 50  0001 C CNN
 F 3 "" H 1800 14000 50  0001 C CNN
 F 4 "EVP-BB2A9B000" H 1800 14000 50  0001 C CNN "PARTNO"
@@ -6364,7 +6364,7 @@ L FunKey:EVP-BB S2
 U 1 1 F82F9BF5
 P 1800 14300
 F 0 "S2" H 1700 14400 60  0000 L BNN
-F 1 "EVP-BB" H 1500 14800 60  0000 L BNN
+F 1 "EVP-BB2A9B000" H 1500 14800 60  0000 L BNN
 F 2 "FunKey:EVP-BB" H 1800 14300 50  0001 C CNN
 F 3 "" H 1800 14300 50  0001 C CNN
 F 4 "EVP-BB2A9B000" H 1800 14300 50  0001 C CNN "PARTNO"
@@ -7115,7 +7115,7 @@ Text Notes 12380 13110 0    60   ~ 0
 7x
 Text Notes 4340 2200 0    60   ~ 0
 2x
-Text Notes 2800 3700 0    200  ~ 40
+Text Notes 2800 4100 0    200  ~ 40
 BUTTONS
 Text Notes 1420 14610 0    60   ~ 0
 2x
@@ -7123,7 +7123,7 @@ Text Notes 2220 7110 0    60   ~ 0
 5x
 Text Notes 2390 9910 0    59   ~ 0
 5x
-Text Notes 2800 4100 0    60   ~ 0
+Text Notes 2800 4500 0    60   ~ 0
 Note: Using U1\ninternal pull-ups\non all buttons
 Text Notes 2300 6310 0    56   ~ 0
 4x
@@ -7651,10 +7651,8 @@ Wire Notes Line
 	15850 3300 22900 3300
 Wire Notes Line
 	10100 12650 10100 16050
-Text Notes 600  3200 0    60   ~ 0
-Rev. A:\n     - Initial version\n\nRev. B:\n     - Correct SZ resistor value\n     - Increase test pad diameter to 1 mm\n     - Drive LCD RESET from a CPU GPIO\n     - Add magnetic Reed switch for cover detection\n     - Change speaker mounting\n     - Solve mechanical interferences\n\nRev. C:\n     - Add test pads for MicroSD and USB\n     - Correct bug (short) of via on AXP209 QFN exposed pad\n     - Change shoulder buttons to Panasonic\n\nRev. D:\n     - Revert shoulder buttons to Omron\n\nRev. E:\n     - Change shoulder buttons to Panasonic (larger ones)\n     - Add TE signal for LCD sync\n     - Trimmed pull-up/down values for LED brightness and lower\n        power consumption\n
 Wire Notes Line
-	4300 3300 500  3300
+	4300 3700 500  3700
 Text Notes 500  800  0    200  ~ 40
 REVISION HISTORY
 Wire Wire Line
@@ -7685,4 +7683,6 @@ Wire Wire Line
 	3700 11300 15300 11300
 Wire Wire Line
 	11900 10800 11900 11900
+Text Notes 600  3600 0    60   ~ 0
+Rev. A:\n     - Initial version\n\nRev. B:\n     - Correct SZ resistor value\n     - Increase test pad diameter to 1 mm\n     - Drive LCD RESET from a CPU GPIO\n     - Add magnetic Reed switch for cover detection\n     - Change speaker mounting\n     - Solve mechanical interferences\n\nRev. C:\n     - Add test pads for MicroSD and USB\n     - Correct bug (short) of via on AXP209 QFN exposed pad\n     - Change shoulder buttons to Panasonic\n\nRev. D:\n     - Revert shoulder buttons to Omron\n\nRev. E:\n     - Change shoulder buttons to Panasonic (larger ones)\n     - Add TE signal for LCD sync\n     - Trimmed pull-up/down values for LED brightness and lower\n        power consumption\n\nRev. F:\n     - Lengthen speaker tabs\n     - Add drills in the side button corners to make cutout square
 $EndSCHEMATC
